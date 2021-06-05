@@ -10,6 +10,10 @@
 		DCE6D9FD266BB4520004121D /* ChordSheetSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE6D9F3266BB4510004121D /* ChordSheetSwift.framework */; };
 		DCE6DA02266BB4520004121D /* ChordSheetSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6DA01266BB4520004121D /* ChordSheetSwiftTests.swift */; };
 		DCE6DA04266BB4520004121D /* ChordSheetSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE6D9F6266BB4510004121D /* ChordSheetSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCE6DA11266BB58D0004121D /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6DA10266BB58D0004121D /* Logging.swift */; };
+		DCE6DA15266BB6980004121D /* ChordSheet.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = DCE6DA13266BB6980004121D /* ChordSheet.bundle.js */; };
+		DCE6DA18266BB8A50004121D /* ChordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6DA17266BB8A50004121D /* ChordSheet.swift */; };
+		DCE6DA1A266BB9610004121D /* TestSong.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCE6DA19266BB9610004121D /* TestSong.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,13 @@
 		DCE6D9FC266BB4520004121D /* ChordSheetSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChordSheetSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE6DA01266BB4520004121D /* ChordSheetSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordSheetSwiftTests.swift; sourceTree = "<group>"; };
 		DCE6DA03266BB4520004121D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE6DA0D266BB45D0004121D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DCE6DA10266BB58D0004121D /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		DCE6DA12266BB6980004121D /* ChordSheet.bundle.js.LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChordSheet.bundle.js.LICENSE.txt; sourceTree = "<group>"; };
+		DCE6DA13266BB6980004121D /* ChordSheet.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ChordSheet.bundle.js; sourceTree = "<group>"; };
+		DCE6DA16266BB6AE0004121D /* ToDo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
+		DCE6DA17266BB8A50004121D /* ChordSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordSheet.swift; sourceTree = "<group>"; };
+		DCE6DA19266BB9610004121D /* TestSong.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestSong.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +64,8 @@
 		DCE6D9E9266BB4510004121D = {
 			isa = PBXGroup;
 			children = (
+				DCE6DA16266BB6AE0004121D /* ToDo.txt */,
+				DCE6DA0D266BB45D0004121D /* README.md */,
 				DCE6D9F5266BB4510004121D /* ChordSheetSwift */,
 				DCE6DA00266BB4520004121D /* ChordSheetSwiftTests */,
 				DCE6D9F4266BB4510004121D /* Products */,
@@ -71,6 +84,8 @@
 		DCE6D9F5266BB4510004121D /* ChordSheetSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DCE6DA0E266BB55F0004121D /* Resources */,
+				DCE6DA0F266BB56D0004121D /* Source */,
 				DCE6D9F6266BB4510004121D /* ChordSheetSwift.h */,
 				DCE6D9F7266BB4510004121D /* Info.plist */,
 			);
@@ -81,9 +96,28 @@
 			isa = PBXGroup;
 			children = (
 				DCE6DA01266BB4520004121D /* ChordSheetSwiftTests.swift */,
+				DCE6DA19266BB9610004121D /* TestSong.txt */,
 				DCE6DA03266BB4520004121D /* Info.plist */,
 			);
 			path = ChordSheetSwiftTests;
+			sourceTree = "<group>";
+		};
+		DCE6DA0E266BB55F0004121D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6DA13266BB6980004121D /* ChordSheet.bundle.js */,
+				DCE6DA12266BB6980004121D /* ChordSheet.bundle.js.LICENSE.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCE6DA0F266BB56D0004121D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6DA17266BB8A50004121D /* ChordSheet.swift */,
+				DCE6DA10266BB58D0004121D /* Logging.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +181,7 @@
 				TargetAttributes = {
 					DCE6D9F2266BB4510004121D = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					DCE6D9FB266BB4520004121D = {
 						CreatedOnToolsVersion = 12.5;
@@ -177,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE6DA15266BB6980004121D /* ChordSheet.bundle.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE6DA1A266BB9610004121D /* TestSong.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE6DA18266BB8A50004121D /* ChordSheet.swift in Sources */,
+				DCE6DA11266BB58D0004121D /* Logging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +380,7 @@
 		DCE6DA08266BB4520004121D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z76RWC6PEN;
@@ -357,6 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oconnorgames.ChordSheetSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +406,7 @@
 		DCE6DA09266BB4520004121D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z76RWC6PEN;
@@ -389,6 +431,7 @@
 		DCE6DA0B266BB4520004121D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z76RWC6PEN;
 				INFOPLIST_FILE = ChordSheetSwiftTests/Info.plist;
@@ -407,6 +450,7 @@
 		DCE6DA0C266BB4520004121D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z76RWC6PEN;
 				INFOPLIST_FILE = ChordSheetSwiftTests/Info.plist;

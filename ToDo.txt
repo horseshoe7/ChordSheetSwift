@@ -1,0 +1,7 @@
+ToDO.txt
+========
+
+- Ensure Licenses get packaged along with the Framework
+- Create a Cocoapod out of this, or a SPM package.
+
+

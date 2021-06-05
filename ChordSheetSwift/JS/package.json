@@ -1,0 +1,20 @@
+{
+  "name": "songbookfour",
+  "version": "1.0.0",
+  "description": "A NPM project for the Songbook Four app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --color"
+  },
+  "keywords": [],
+  "author": "Stephen O'Connor",
+  "license": "MIT",
+  "dependencies": {
+    "chordsheetjs": "^4.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}

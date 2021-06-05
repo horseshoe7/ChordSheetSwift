@@ -5,3 +5,7 @@ ToDO.txt
 - Create a Cocoapod out of this, or a SPM package.
 
 
+- Figure out why TestSongChordSheet.txt is concatenating words
+    - Try with HTMLTableFormatter instead of DivFormatter and see if that changes things.
+    
+- Look into deeper stylings of chords, optional tap on chords to show a pop-up.

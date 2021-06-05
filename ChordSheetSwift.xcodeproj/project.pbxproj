@@ -14,6 +14,16 @@
 		DCE6DA15266BB6980004121D /* ChordSheet.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = DCE6DA13266BB6980004121D /* ChordSheet.bundle.js */; };
 		DCE6DA18266BB8A50004121D /* ChordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6DA17266BB8A50004121D /* ChordSheet.swift */; };
 		DCE6DA1A266BB9610004121D /* TestSong.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCE6DA19266BB9610004121D /* TestSong.txt */; };
+		DCE6DA22266BC9AB0004121D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6DA21266BC9AB0004121D /* AppDelegate.swift */; };
+		DCE6DA24266BC9AB0004121D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6DA23266BC9AB0004121D /* SceneDelegate.swift */; };
+		DCE6DA26266BC9AB0004121D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6DA25266BC9AB0004121D /* ViewController.swift */; };
+		DCE6DA29266BC9AB0004121D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE6DA27266BC9AB0004121D /* Main.storyboard */; };
+		DCE6DA2B266BC9B00004121D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE6DA2A266BC9B00004121D /* Assets.xcassets */; };
+		DCE6DA2E266BC9B00004121D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE6DA2C266BC9B00004121D /* LaunchScreen.storyboard */; };
+		DCE6DA37266BCB1E0004121D /* ChordSheetSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE6D9F3266BB4510004121D /* ChordSheetSwift.framework */; };
+		DCE6DA38266BCB1E0004121D /* ChordSheetSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCE6D9F3266BB4510004121D /* ChordSheetSwift.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCE6DA3B266BCB610004121D /* TestSongChordSheet.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCE6DA3A266BCB610004121D /* TestSongChordSheet.txt */; };
+		DCE6DA3C266BCBAB0004121D /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6DA10266BB58D0004121D /* Logging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +34,28 @@
 			remoteGlobalIDString = DCE6D9F2266BB4510004121D;
 			remoteInfo = ChordSheetSwift;
 		};
+		DCE6DA33266BCB020004121D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE6D9EA266BB4510004121D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE6D9F2266BB4510004121D;
+			remoteInfo = ChordSheetSwift;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCE6DA39266BCB1E0004121D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCE6DA38266BCB1E0004121D /* ChordSheetSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DCE6D9F3266BB4510004121D /* ChordSheetSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChordSheetSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +71,15 @@
 		DCE6DA16266BB6AE0004121D /* ToDo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
 		DCE6DA17266BB8A50004121D /* ChordSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordSheet.swift; sourceTree = "<group>"; };
 		DCE6DA19266BB9610004121D /* TestSong.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestSong.txt; sourceTree = "<group>"; };
+		DCE6DA1F266BC9AB0004121D /* TesterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE6DA21266BC9AB0004121D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE6DA23266BC9AB0004121D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCE6DA25266BC9AB0004121D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCE6DA28266BC9AB0004121D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCE6DA2A266BC9B00004121D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE6DA2D266BC9B00004121D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCE6DA2F266BC9B00004121D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE6DA3A266BCB610004121D /* TestSongChordSheet.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestSongChordSheet.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCE6DA1C266BC9AB0004121D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE6DA37266BCB1E0004121D /* ChordSheetSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,7 +116,9 @@
 				DCE6DA0D266BB45D0004121D /* README.md */,
 				DCE6D9F5266BB4510004121D /* ChordSheetSwift */,
 				DCE6DA00266BB4520004121D /* ChordSheetSwiftTests */,
+				DCE6DA20266BC9AB0004121D /* TesterApp */,
 				DCE6D9F4266BB4510004121D /* Products */,
+				DCE6DA35266BCB0B0004121D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +127,7 @@
 			children = (
 				DCE6D9F3266BB4510004121D /* ChordSheetSwift.framework */,
 				DCE6D9FC266BB4520004121D /* ChordSheetSwiftTests.xctest */,
+				DCE6DA1F266BC9AB0004121D /* TesterApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +169,28 @@
 				DCE6DA10266BB58D0004121D /* Logging.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		DCE6DA20266BC9AB0004121D /* TesterApp */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6DA21266BC9AB0004121D /* AppDelegate.swift */,
+				DCE6DA23266BC9AB0004121D /* SceneDelegate.swift */,
+				DCE6DA25266BC9AB0004121D /* ViewController.swift */,
+				DCE6DA27266BC9AB0004121D /* Main.storyboard */,
+				DCE6DA2A266BC9B00004121D /* Assets.xcassets */,
+				DCE6DA2C266BC9B00004121D /* LaunchScreen.storyboard */,
+				DCE6DA2F266BC9B00004121D /* Info.plist */,
+				DCE6DA3A266BCB610004121D /* TestSongChordSheet.txt */,
+			);
+			path = TesterApp;
+			sourceTree = "<group>";
+		};
+		DCE6DA35266BCB0B0004121D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +243,25 @@
 			productReference = DCE6D9FC266BB4520004121D /* ChordSheetSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DCE6DA1E266BC9AB0004121D /* TesterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE6DA30266BC9B00004121D /* Build configuration list for PBXNativeTarget "TesterApp" */;
+			buildPhases = (
+				DCE6DA1B266BC9AB0004121D /* Sources */,
+				DCE6DA1C266BC9AB0004121D /* Frameworks */,
+				DCE6DA1D266BC9AB0004121D /* Resources */,
+				DCE6DA39266BCB1E0004121D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE6DA34266BCB020004121D /* PBXTargetDependency */,
+			);
+			name = TesterApp;
+			productName = TesterApp;
+			productReference = DCE6DA1F266BC9AB0004121D /* TesterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +276,9 @@
 						LastSwiftMigration = 1250;
 					};
 					DCE6D9FB266BB4520004121D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DCE6DA1E266BC9AB0004121D = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -203,6 +298,7 @@
 			targets = (
 				DCE6D9F2266BB4510004121D /* ChordSheetSwift */,
 				DCE6D9FB266BB4520004121D /* ChordSheetSwiftTests */,
+				DCE6DA1E266BC9AB0004121D /* TesterApp */,
 			);
 		};
 /* End PBXProject section */
@@ -221,6 +317,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE6DA1A266BB9610004121D /* TestSong.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE6DA1D266BC9AB0004121D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE6DA3B266BCB610004121D /* TestSongChordSheet.txt in Resources */,
+				DCE6DA2E266BC9B00004121D /* LaunchScreen.storyboard in Resources */,
+				DCE6DA2B266BC9B00004121D /* Assets.xcassets in Resources */,
+				DCE6DA29266BC9AB0004121D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +351,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCE6DA1B266BC9AB0004121D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE6DA26266BC9AB0004121D /* ViewController.swift in Sources */,
+				DCE6DA22266BC9AB0004121D /* AppDelegate.swift in Sources */,
+				DCE6DA24266BC9AB0004121D /* SceneDelegate.swift in Sources */,
+				DCE6DA3C266BCBAB0004121D /* Logging.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -252,7 +370,31 @@
 			target = DCE6D9F2266BB4510004121D /* ChordSheetSwift */;
 			targetProxy = DCE6D9FE266BB4520004121D /* PBXContainerItemProxy */;
 		};
+		DCE6DA34266BCB020004121D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE6D9F2266BB4510004121D /* ChordSheetSwift */;
+			targetProxy = DCE6DA33266BCB020004121D /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCE6DA27266BC9AB0004121D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE6DA28266BC9AB0004121D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCE6DA2C266BC9B00004121D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE6DA2D266BC9B00004121D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DCE6DA05266BB4520004121D /* Debug */ = {
@@ -466,6 +608,44 @@
 			};
 			name = Release;
 		};
+		DCE6DA31266BC9B00004121D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z76RWC6PEN;
+				INFOPLIST_FILE = TesterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oconnorgames.TesterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE6DA32266BC9B00004121D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z76RWC6PEN;
+				INFOPLIST_FILE = TesterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oconnorgames.TesterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -492,6 +672,15 @@
 			buildConfigurations = (
 				DCE6DA0B266BB4520004121D /* Debug */,
 				DCE6DA0C266BB4520004121D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE6DA30266BC9B00004121D /* Build configuration list for PBXNativeTarget "TesterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE6DA31266BC9B00004121D /* Debug */,
+				DCE6DA32266BC9B00004121D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
